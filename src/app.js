@@ -27,7 +27,7 @@ app.get("/weather",(req,res)=>{
 app.get("*",(req,res)=>{
     // res.send("<h1>hello from vrajlata thummar about side</h1>");
     res.render("404",{
-        errormessage:"oops! Page not found"
+        errormessage:"oops! Page not found, click here to go back"
     });
  });
 app.listen(port,'127.0.0.1',()=>{
