@@ -1,7 +1,7 @@
 const express=require('express');
 const app=express();
 const path=require('path');
-const port=process.env.PORT || 3000;
+const port=process.env.PORT || 2200;
 const hbs=require('hbs');
 const { error } = require('console');
 const public_path=path.join(__dirname,'../public');
